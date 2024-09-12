@@ -25,8 +25,8 @@ const methodToVerb = Object.freeze({
 type RouteDictionary = Record<`${OpenAPIV3.HttpMethods} ${string}`, string>;
 
 const devFeatureCustomRoutes: RouteDictionary = Object.freeze({
-  // Subject tokens
-  'post /subject-tokens': 'CreateSubjectToken',
+  'post /profile/password': 'UpdatePassword',
+  'post /verifications/password': 'VerifyPassword',
 });
 
 export const customRoutes: Readonly<RouteDictionary> = Object.freeze({
