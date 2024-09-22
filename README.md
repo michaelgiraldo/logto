@@ -18,14 +18,24 @@
 [![gitpod](https://img.shields.io/badge/gitpod-available-f09439)](https://gitpod.io/#https://github.com/logto-io/demo)
 [![render](https://img.shields.io/badge/render-deploy-5364e9)](https://render.com/deploy?repo=https://github.com/logto-io/logto)
 
-Logto[^info] is an Auth0 alternative designed for modern apps and SaaS products. It offers a seamless developer experience and is well-suited for individuals and growing companies.
+Logto[^info] is an open-source Identity and Access Management (IAM) platform designed to streamline Customer Identity and Access Management (CIAM) and Workforce Identity Management. With Single Sign-On (SSO), OIDC-based authentication, and Multi-Tenant SaaS capabilities, Logto offers a scalable, secure, and developer-friendly way to manage authentication for modern web and mobile application
+
+## Get started
+
+- 💬 Join the [Logto Discord Server](https://discord.gg/vRvwuwgpVX) and connect with developers! Get real-time support, share ideas, and stay updated on all things identity management.
+  - [Join Now](https://discord.gg/vRvwuwgpVX) 
+- Follow the [quick start](https://logto.io/quick-starts/?utm_source=github&utm_medium=repo_logto) guide to begin managing authentication efficiently.
+- Check out our [📖 intergrations](https://docs.logto.io/integrations?utm_source=github&utm_medium=repo_logto) to start integrating Logto with your application today.
+- A step-by-step getting started is available on 📖 [Logto Docs](https://docs.logto.io/docs/get-started/welcome/?utm_source=github&utm_medium=repo_logto).
+- Visit 🎨 [Logto Webstie](https://logto.io/?utm_source=github&utm_medium=repo_logto) for a brief introduction if you are new to Logto.
+
+## Key Features
 
 🧑‍💻 **Comprehensive frontend-to-backend identity solution**
 
-- Enables OIDC-based authentication with Logto SDKs.
+- Enables OpenID Connect (OIDC) based authentication with Logto SDKs.
 - Supports passwordless sign-in, along with various options like email, phone number, username, Google, Facebook, and other social sign-in methods.
 - Offers beautiful UI components with customizable CSS to suit your business needs.
-- Has an open community with many warm-hearted contributors and users. Check out our [awesome list](./AWESOME.md) of community-contributed resources.
 
 📦 **Out-of-the-box infrastructure**
 
@@ -37,18 +47,24 @@ Logto[^info] is an Auth0 alternative designed for modern apps and SaaS products.
 
 - Implements role-based access control (RBAC) for scalable role authorization, catering to a wide range of use cases.
 - Facilitates user management and provides audit logs for understanding identity-related user information and maintaining security.
-- Enables single sign-on (SSO) and multi-factor authentication (MFA) without extra coding.
-- Leverages Logto organizations to build multi-tenancy apps with ease.
+- Enables [single sign-on (SSO)](https://docs.logto.io/docs/recipes/single-sign-on/) and [multi-factor authentication (MFA)](https://docs.logto.io/docs/recipes/multi-factor-auth/) without extra coding.
+- Leverage Logto [organizations](https://docs.logto.io/docs/recipes/organizations/understand-how-it-works/) to build [multi-tenancy](https://blog.logto.io/tenancy-models/) apps with ease.
 
-In a more approachable way, we refer to this solution as "[Customer Identity Access Management (CIAM)](https://en.wikipedia.org/wiki/Customer_identity_access_management)" or simply, the "Customer Identity Solution."
+In a more approachable way, we refer to the Customer Identity Access Management (CIAM) Introductory Courses
+- [CIAM 101](https://docs.logto.io/ciam-101-intro-authn-sso/)
+- [CIAM 102](https://blog.logto.io/ciam-102-authz-and-rbac/)
+
+## Deep Dives
+
+- For a deeper understanding of key identity management topics, explore our [blog](https://blog.logto.io/):
+- [Understanding Token Exchange in OAuth/OIDC](https://blog.logto.io/token-exchange)– Learn about token-based authentication systems.
+- [Opaque Token vs JWT](https://blog.logto.io/opaque-token-vs-jwt) – Discover the differences between token types for authentication.
+- [When Should I Use JWTs?](https://blog.logto.io/when-should-i-use-jwts) – A guide on when to use JWT for secure authentication.
+- [Bring Your Own Sign-In UI](https://blog.logto.io/bring-your-own-ui)– Customize your UI with Logto Cloud for flexible authentication
+
 
 > [!IMPORTANT]
-> [Subscribe to us](https://logto.io/subscribe/?utm_source=github&utm_medium=repo_logto) now to stay updated with the latest information about the Logto Cloud (SaaS) and receive feature updates in real-time.
-
-## Get started
-
-- Visit our 🎨 [website](https://logto.io/?utm_source=github&utm_medium=repo_logto) for a brief introduction if you are new to Logto.
-- A step-by-step guide is available on 📖 [docs.logto.io](https://docs.logto.io/?utm_source=github&utm_medium=repo_logto).
+> [Subscribe Now](https://logto.io/subscribe/?utm_source=github&utm_medium=repo_logto) to stay updated with the latest information about the Logto and receive feature updates in real-time.
 
 ### Interactive demo
 
@@ -94,7 +110,6 @@ Logto uses the [default browserslist config](https://github.com/browserslist/bro
 - Our team takes security seriously, especially when it relates to identity. If you find any existing or potential security issues, please do not hesitate to email 🔒 [security@logto.io](mailto:security@logto.io).
 - About other bug reports, feature requests, and feedback, you can:
   - Directly 🙋 [open an issue](https://github.com/logto-io/logto/issues/new) on GitHub;
-  - 💬 [Join our Discord server](https://discord.gg/vRvwuwgpVX) to have a live chat.
 
 ## Licensing
 
@@ -108,7 +123,8 @@ We have a [contributing guideline](https://github.com/logto-io/logto/blob/master
 
 - [📖 Logto docs](https://docs.logto.io/?utm_source=github&utm_medium=repo_logto)
 - [✍️ Blog](https://blog.logto.io/?utm_source=github&utm_medium=repo_logto)
-
+- [✍️ Indentity API](https://openapi.logto.io/?utm_source=github&utm_medium=repo_logto)
+- Check out our [awesome list](./AWESOME.md) of community-contributed resources.
 <br/>
 
 [^info]: Designed by Silverhand Inc.
